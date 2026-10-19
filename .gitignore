@@ -1,0 +1,28 @@
+# 依赖
+node_modules/
+
+# 构建产物
+dist/
+dist-ssr/
+build/
+
+# 环境变量（保留 .env.example）
+.env
+.env.*
+!.env.example
+
+# 日志
+*.log
+logs/
+
+# 编辑器 / 系统
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+
+# 本地数据卷
+volumes/
+
+# 含个人信息的测试文件（简历、考勤表等），避免公开泄露
+test-files/
